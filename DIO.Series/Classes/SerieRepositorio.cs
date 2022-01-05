@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using DIO.Series.Interfaces;
 
 namespace DIO.Series
@@ -34,7 +35,7 @@ namespace DIO.Series
 
 		public Serie RetornaPorId(int id)
 		{
-			return listaSerie[id];
+			return listaSerie.FirstOrDefault(_ => _.Id ==id);
 		}
 	}
 }
