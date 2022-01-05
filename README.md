@@ -7,14 +7,14 @@ dotnet run --project .\DIO.Series.Web\DIO.Series.Web.csproj --urls https://local
 
 ## Marcação dos métodos de teste
 [Tehory] // para testes que recebem parâmetro
-<br\>
+<br/><br/>
 [Fact] // utilizado para marcar o método a ser testado
-<br\>
+<br/><br/>
 
 ## Códigos
-assert = assegure <br\>
+assert = assegure <br/><br/>
 Assert.Equal(valor esperado, reultado da funcao)
-<br\>
+<br/><br/>
 [Fact(DisplayName = "DADO QUANDO ENTAO")]
-<br\>
+<br/><br/>
 [Fact(DisplayName = "DADO serie valida QUANDO inserimos ENTAO persistimos")]
